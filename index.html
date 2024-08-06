@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosque Membership Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mosque Membership Cards</h1>
+    <button id="add-member-btn">Add Member</button>
+    <div id="membership-cards"></div>
+
+    <template id="membership-card-template">
+        <div class="mosque-membership-card">
+            <div class="header">
+                <h2>vazhimukku juma masjid</h2>
+                <p>Membership Card</p>
+            </div>
+            <div class="information">
+                <div class="member-info">
+                    <p><strong>Member Name:</strong> <input type="text" id="member-name" value=""></p>
+                    <div class="photo">
+                        <img src="photo.jpg" alt="Member Photo" id="member-photo">
+                        <input type="file" id="photo-input" style="display: none;">
+                    </div>
+                </div>
+                <p><strong>Father's name:</strong> <input type="text" id="member-name" value=""></p>
+                <p><strong>Address:</strong> <input type="text" id="member-name" value=""></p>
+                <p><strong>phone No:</strong> <input type="text" id="member-name" value=""></p>
+                <p><strong>Jamath no:</strong> <input type="text" id="member-name" value=""></p>
+            </div>
+            <div class="information">
+                <p><strong>masjid Address:</strong>  <input type="text" id="member-name" value=""></p>
+                <p><strong>contact: (91+) </strong>  <input type="text" id="member-name" value=""></p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
